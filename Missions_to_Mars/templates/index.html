@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Fluid jumbotron</h1>
+        </div>
+    </div>
+
+    <h2>Latest Mars News</h2>
+    <p>
+        {{information.News_Title}} 
+    </p>
+    <p>
+        {{information.News_Title_Description}}
+    </p>
+
+    <div class="container">
+        <div class="row">
+            <!-- Left Image-->
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <h3>Featured Mars Image</h3>
+                <img src="{{ information.image_url }}" style="max-width:100%; max-height: auto;" alt="Mars Featured Image">
+            </div>
+    
+</body>
+</html>
